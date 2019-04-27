@@ -1,1 +1,1 @@
-from CVSite2 import app as application
+from CVSite2 import runserver as application
