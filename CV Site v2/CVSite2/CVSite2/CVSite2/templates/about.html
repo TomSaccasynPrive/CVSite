@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<h2>{{ title }}.</h2>
+<h3>{{ message }}</h3>
+<div class="container">
+    <div class="col-md-6">
+        <p>
+            Ik ben Tom Saccasyn, en 3 de jaars student Netwerk & Security aan de Erasmus Hogeschool Brussel.
+        </p>
+        <p><img src="../static/content/ehb logo.jpg" alt="Foto EHB" width="150px" height="150px" /> <p />
+    </div>
+    <div class="col-md-6">
+        <p><img src="https://scontent-bru2-1.xx.fbcdn.net/v/t1.0-9/11179944_851029914980028_7404195777021898527_n.jpg?_nc_cat=101&_nc_ht=scontent-bru2-1.xx&oh=987df6c139f8d13d004e0976c16550b4&oe=5D036226" alt="Foto Tom Saccasyn" width="120px" height="186px" /> </p>
+    </div>
+    <div class="col-md-6">
+
+        <p><br /></p>
+    </div>
+    <div class="col-md-6">
+        <p> Ik maak deze site voor ITalent3. Deze site heeft als bedoeling om aan te tonen dat ik een site kan maken met Flask en Python. </p>
+    </div>
+    <div class="col-md-6">
+        <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png" alt="Foto Python" width="70px" height="70px" /> </p>
+        <p><img src="https://i.pinimg.com/originals/8c/bf/4a/8cbf4a7ecbe7c6b573f98eeccb0f7584.png" alt="Foto Flask" width="150px" height="150px" /> </p>
+    </div>
+    <div class="col-md-12">
+
+        <p><br /></p>
+    </div>
+    <div class="col-md-12">
+        <h4>Hieronder volgt de uitleg over hoe de api moet worden aangesproken.</h4>
+        <p>De api kan worden aangesproken eenmaal de site online is via postman of door in de console naar de folder te gaan waar het runserver.py bestand in zit en daar het commandprompt te openen.<br /> Daarna moet er in de commandprompt <strong>curl</strong> worden getyped en dan de gewenste URL waar de data van moet worden gehaald.</p>
+        <p> Om de api aan te spreken moet men eerst deze site online hebben en dan kan men de data krijgen via een GET request door volgende links te gebruiken:</p>
+        <p><strong>https://localhost:5555/api/all<br />https://localhost:5555/api/overmij<br />https://localhost:5555/api/historiekscholen<br />https://localhost:5555/api/talenkennis<br />https://localhost:5555/api/computervaardigheden<br />https://localhost:5555/api/hobbies</p></strong>
+    </div>
+</div>
+{% endblock %}

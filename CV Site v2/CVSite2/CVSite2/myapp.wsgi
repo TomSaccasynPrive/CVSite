@@ -1,0 +1,1 @@
+from CVSite2 import app as application
